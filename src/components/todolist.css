@@ -1,0 +1,50 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #c4c4c4;
+  margin: 10px;
+}
+.todoListContainer label {
+  font-weight: bold;
+}
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+.filterContainer input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+.filterContainer select {
+  padding: 5px;
+  outline: none;
+  border: 1px solid #c4c4c4;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.filterContainer button {
+  padding: 10px;
+  outline: none;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  color: white;
+  width: 70px;
+  border-radius: 5px;
+}
+.filterContainer .deleteBtn{
+    display: flex;
+    background-color: brown;
+    width:20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 1px solid brown;
+    border-radius: 2px;
+}

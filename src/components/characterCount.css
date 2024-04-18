@@ -1,0 +1,17 @@
+.characterCounterContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #c4c4c4;
+  margin: 10px;
+}
+.characterCounterContainer label {
+  font-weight: bold;
+}
+.inputContainer input {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
